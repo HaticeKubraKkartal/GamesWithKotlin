@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    android:gravity="center"
+    tools:context=".TopbulActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Puan : "
+            android:textAllCaps="false"
+            android:textColor="@color/darkColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvkredi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/darkColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnYeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color2"
+            android:text="Yeni Oyun"
+            android:textColor="@color/backColor"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:layout_margin="3dp">
+        <ImageButton
+            android:id="@+id/ibtn1"
+            android:layout_width="60pt"
+            android:layout_height="100pt"
+            android:layout_margin="2pt"
+            android:onClick="btnSelect"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/ibtn2"
+            android:layout_width="60pt"
+            android:layout_height="100pt"
+            android:onClick="btnSelect"
+            android:layout_margin="2pt"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/ibtn3"
+            android:layout_width="60pt"
+            android:layout_height="100pt"
+            android:layout_margin="2pt"
+            android:onClick="btnSelect"
+            android:scaleType="fitCenter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSonuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/main"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/nav_tactoe"
+            android:icon="@drawable/item"
+            android:title="Tac Toe Oyunu" />
+        <item
+            android:id="@+id/nav_topbul"
+            android:icon="@drawable/item"
+            android:title="Bul Topu Al Puanı?" />
+        <item
+            android:id="@+id/nav_sayitahmin"
+            android:icon="@drawable/item"
+            android:title="Sayı Tahmin Oyunu" />
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_kural"
+                android:icon="@drawable/kural"
+                android:title="Oyun Kuralları" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Çıkış Yap" />
+        </menu>
+    </item>
+</menu>

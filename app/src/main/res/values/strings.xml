@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_main"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tac_toe">Oyun androide karşı oynanmaktadır. Oyun düzeneğinde toplam 9 kare bulunmaktadır. Siz X yazarken android O harfini yazacaktır. Eğer kareler üzerinde alt alta , yan yana veya çarpraz olarak aynı harfleri getirebilirseniz oyunu kazanabilirsiniz.</string>
+    <string name="topbul">Oyun androide karşı oynanmaktadır. Oyun düzeneğinde 3 kağıt bulunmaktadır. Ve bunlardan birinde top saklıdır. Topun olduğu kağıt tahmin edilmeye çalışılır.Başlangıçta 50 puandan başlatılır ve her doğru tahminde 10 puan eklenir , yanlış tahminde ise 10 puan düşer. </string>
+</resources>
